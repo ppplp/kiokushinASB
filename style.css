@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-family: Bradley Hand, cursive;
+}
+
+body {
+    height: 100hv;
+    background-image:  url("https://kartinki.pics/uploads/posts/2021-07/1625801893_26-kartinkin-com-p-karate-kiokushinkai-oboi-krasivie-27.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #000;    
+}
+
+main .container {
+    width: 50%; 
+    height: 100%;  
+    margin: 0 auto; 
+    margin-top: 75px;  
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    padding-top: 3%; 
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px; 
+    font-size: 18px;
+    box-shadow: 0 5px 10px #000;
+}
+
+main .container1 {
+    width: 50%; 
+    height: 1204px;
+    margin: 0 auto; 
+    margin-top: 75px;  
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    padding-top: 3%; 
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px; 
+    font-size: 18px;
+    box-shadow: 0 5px 10px #000;
+}
+
+.glav {
+    p {
+        margin-bottom: 5.3%;
+    }
+}
+
+.last_p {
+    margin-bottom: none;
+}
+
+.uch {
+    p { margin-bottom: 3%;}
+    h4 {margin-bottom: 1%;}
+}
+
+.simv {
+    p {
+        margin-bottom: 2%;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+.raspis {
+    p {
+        margin-bottom: 1%;
+    }
+}
+
+.table1{float:  left; margin: 10%;}
+
+.table2 {float: right; margin: 10%;}
+
+.raspis {
+    h1 {text-align: center;}
+    h3 {text-align: center; margin-bottom: 5%;}
+    h2 {margin-left: 7%; margin-bottom: 2%;}
+}
+
+.igor1 {
+    width: 50%; 
+    float: left;
+    h3 {margin-right: 10%; margin-bottom: 5.7%;}
+}
+
+.ivan1 {
+    width: 50%;
+    float: right;
+    h3 {margin-left: 5%;}
+}
+
+.ruskiokushin {
+    p {margin-bottom: 2%;}
+    h3 {margin-left: 2.5%; margin-bottom: 2%;}
+    h1 {text-align: center; margin-bottom: 2%;}
+}
+
+.oyama_div {
+    h1 {text-align: center; margin-bottom: 5%;}
+    p {margin-bottom: 3.4%;}
+}
+
+main .info{
+    height: 13%;
+    width: 19%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 2.5%;
+    background-color: #ddd;
+    border-top-left-radius: 40px; 
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px; 
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 5px 10px #000;
+        p {
+            font-size: 1.2em;
+            margin-left: 3%;
+        }
+        h3 {
+            margin-bottom: 0.3em;
+            margin-left: 2%;
+        }
+}
+
+.cart {
+    float: right; 
+    width: 23%; 
+    margin-right: 5%;
+}
+
+
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    transition: .5s;
+}
+
+header .logo:hover {transform: scale(1.2);}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: #000;
+    font-size: 20px;
+    display: block;
+}
+
+header nav ul li a:hover {text-shadow: 0 0 25px;}
+
+.kiokushun1 {
+    float: left;
+    height: 32%;
+    width: 27%;
+    margin-top: 0.4%;
+    margin-right: 1%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.kiokushun2 {
+    float: right;
+    height: 30%;
+    width: 25%;
+    margin-left: 5px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.kiokushun3 {
+    float: right;
+    height: 12%;
+    width: 22%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.kiokushun4 {
+    float: left;
+    margin-right: 2%;
+    height: 18%;
+    width: 23%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.igor {
+    margin-left: 29%; 
+    width: 32.5%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.ivan {
+    margin-left: 30%; 
+    width: 46%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.simvol {
+    float: left;
+    width: 12%;
+    margin: 9%;
+    margin-left: 7%;
+    margin-top: 11%;
+}
+
+.simvol2 {
+    float: right;
+    width: 12%;
+    margin: 9%;
+    margin-right: 6%;
+    margin-top: 11%;
+}
+
+.oyama1 {
+    float: left;
+    width: 25%;
+    margin-right: 2%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.oyama2 {
+    float: right;
+    width: 28%;
+    margin-left: 2%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.oyama3 {
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.kanku {
+    float: left;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-right: 2%;
+    width: 20%;
+}
+
+.kankuruki {
+    float: right;
+    width: 20%;
+    margin-top: 3%;
+    margin-right: 1%
+}
+
+.kankuruki2 {
+    width: 47%;
+    margin-left: 4%;
+}
+
+.main {text-decoration: underline;}   
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    font-size: 20px;
+  }
+
+.dropbtn:hover {text-shadow: 0 0 25px;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+@media only screen and (max-width: 1920px) {
+    .cart {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 2%;
+    }
+
+    main .container {
+        font-size: 0.9em;
+        p {margin-bottom: 4.5%;}
+    }
+
+    main .info {
+        padding: 0.3%;
+        p {font-size: 1em; margin-left: 3%;}
+        h2 {font-size: 1.4em;}
+    }
+
+    .simv {
+        font-size: 1em;
+        h2 {font-size: 1.2em; text-align: center;}
+    }
+
+    .raspis { font-size: 1em;}
+
+    main .container1 { height: 1005px;}
+
+    .raspis {
+        h1 {font-size: 1.5em;}
+        h2 {font-size: 1em;}
+        h3 {font-style: 0.75em;}
+    }
+
+    .ruskiokushin {
+        p {margin-bottom: 2%;}
+        h3 {margin-left: 2.5%;}
+        h1 {text-align: center; margin-bottom: 2%;}
+    }
+}
